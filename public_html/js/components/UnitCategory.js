@@ -1,8 +1,7 @@
 function UnitCategory(props) {
-
     let opts = [];
     Object.entries(props.units).forEach(([key, value]) => {
-        opts.push(<option value={key}>{key}</option>);
+        opts.push(<option value={key}>{props.units[key].name}</option>);
     });
     
     return (

@@ -35,7 +35,7 @@ function App(props) {
                 },
                 centiliter: {
                     name: "Centiliter",
-                    symbol: "l",
+                    symbol: "cl",
                     convToBase: (val) => val / 100,
                     convFromBase: (val) => val * 100
                 },
@@ -112,7 +112,7 @@ function App(props) {
     }
 
     return (
-            <div className="app-main">
+            <div className="rconv-app-main">
                 <label id="caption">Unit Converter</label>
                 <div>
                     <label>Category</label>

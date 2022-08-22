@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Unit converter</title>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
     </head>
     <body>
-        <div>TODO write content</div>
+        <div style="margin-bottom: 5px;">React.js unit converter app</div>
+        <div id="app"></div>
+        <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+        <script type="text/jsx" src="./js/components/UnitList.js"></script>
+        <script type="text/jsx" src="./js/components/UnitCategory.js"></script>
+        <script type="text/jsx" src="./js/App.js"></script>
+        <script type="text/jsx">            
+            const app = document.getElementById('app');
+            ReactDOM.render(<App/>, app);            
+        </script>
     </body>
 </html>

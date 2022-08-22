@@ -1,0 +1,33 @@
+.app-main{
+    display: inline-block;
+    padding: 20px;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
+.display, .display-multiline{
+    text-align: right;
+    width: 164px;
+    height: 25px;
+    margin: 1px;
+    padding: 1px;
+    background-color: #FFFFCC;
+    color: cornflowerblue;
+    font-size: 16px;
+}
+
+.display-multiline{
+    height: 50px;
+}
+
+.simple-button{
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+}
+
+.double-button{
+    width: 82px;
+    height: 40px;
+    margin: 1px;
+}
